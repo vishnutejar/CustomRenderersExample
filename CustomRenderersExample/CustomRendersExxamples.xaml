@@ -1,0 +1,29 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomRenderersExample.CustomRendersExxamples"
+             xmlns:CustomRender="clr-namespace:CustomRenderersExample.customrenders">
+    <ContentPage.Content>
+        <StackLayout>
+            <CustomRender:MyEntry Placeholder="Enter User Name " TextColor="AliceBlue" PlaceholderColor="White" Margin="20"/>
+
+            <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                    <Label Text="sjkfsd"></Label>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
